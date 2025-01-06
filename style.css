@@ -481,7 +481,7 @@ main {
 }
 
 body.dark .header {
-  background-image: linear-gradient(#0000003b, #000000e6),
+  background-image: linear-gradient(#0000001b, #0000008b),
     url("assets/images/Personal-Hero-01.webp");
 }
 
