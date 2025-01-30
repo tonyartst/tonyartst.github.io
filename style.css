@@ -38,11 +38,10 @@
   --gutter-micro: 1rem;
   --gutter-x-small: 1.5rem;
   --gutter-small: 2rem;
-  --gutter-medium: 2.5rem;
+  --gutter-medium: 1rem;
   --gutter-large: 3rem;
-  --gutter-x-large: 6rem;
-  --gutter-huge: 12rem;
-
+  --gutter-x-large: 3rem;
+  --gutter-huge: 7rem;
   --scroll-padding: 4.375rem;
   --radius: 85px;
 }
@@ -52,7 +51,7 @@ body.dark {
   --bg-color-secondary: #161211;
   --important: #fff;
   --sub: #c3c3c3;
-  --body: #989898;
+  --body: #ffffff;
   --border: #c0c0c015;
   --border-dark: #c0c0c02f;
   --gradient-border: linear-gradient(to left bottom, #777, #0e0d0d);
@@ -64,7 +63,7 @@ body.light {
   --bg-color-secondary: #ffffff;
   --important: #000;
   --sub: #111;
-  --body: #585b63;
+  --body: #ffffff;
   --border: #62626234;
   --border-dark: #5e5e5e1f;
   --gradient-border: linear-gradient(to left bottom, #000000c6, #0e0d0d00);
@@ -281,8 +280,8 @@ h3,
 }
 
 .btn-cta {
-  color: var(--bg-color-primary);
-  background-color: var(--important);
+  color: #ffffff;
+  background-color: #000000;
 }
 
 body.dark .btn-cta:hover,
@@ -880,6 +879,7 @@ body.dark .work-links img {
   justify-content: center;
   gap: var(--gutter-x-large);
   padding-block-start: var(--gutter-x-large);
+  padding-block-end: 72px;
 }
 
 .skills-img {
