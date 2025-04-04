@@ -562,7 +562,7 @@ body.light .header {
   }
 
   .work-img {
-    margin-block-end: var(--gutter-medium);
+    margin-block-end: var(--gutter-large);
   }
 }
 
